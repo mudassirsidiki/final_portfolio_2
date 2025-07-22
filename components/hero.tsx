@@ -300,9 +300,9 @@ With hands-on experience in both frontend and backend development, I bring a hol
                 {/* Glowing border effect */}
                 <div className="absolute inset-0 rounded-full border-2 border-blue-400/70 animate-pulse"></div>
                 {/* Image container */}
-                <div className="w-full h-full bg-black/40">
+                <div className="w-full h-full">
                   <img
-                    src="images/pik.jpg"
+                    src="images/muddi.png"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />

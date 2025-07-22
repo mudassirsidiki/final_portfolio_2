@@ -34,11 +34,11 @@ export default function AboutPage() {
             className="relative overflow-hidden rounded-xl border border-primary/20 shadow-xl"
           >
             <div className="relative aspect-square w-full overflow-hidden rounded-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/30 to-purple-500/30 mix-blend-overlay z-10 rounded-xl"></div>
+              <div className="absolute inset-0 mix-blend-overlay z-10 rounded-xl"></div>
               <Image
-                src="/images/pik.jpg"
+                src="/images/muddi.png"
                 alt="Mudassir Ahmed Siddiqui"
-                className="object-cover"
+                className="object-contain"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
@@ -82,7 +82,11 @@ export default function AboutPage() {
                 <Link href="/contact">Get In Touch</Link>
               </Button>
               <Button variant="outline" asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="/images/Mudassir_Ahmed_Siddiqui.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FileText className="mr-2 h-4 w-4" /> Resume
                 </a>
               </Button>
@@ -149,9 +153,7 @@ export default function AboutPage() {
               </div>
               <div className="border-l-2 border-primary/50 pl-4 py-1">
                 <p className="text-primary font-medium">2020 - 2024</p>
-                <h4 className="text-lg font-semibold">
-                  Bachelor of Science in Civil Engineering
-                </h4>
+                <h4 className="text-lg font-semibold">Bachelor of Science</h4>
                 <p className="text-muted-foreground">
                   NED University of Engineering and Technology
                 </p>
